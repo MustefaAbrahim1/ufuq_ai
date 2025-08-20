@@ -1,0 +1,159 @@
+.Settings {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #dbe704;
+    color: #333;
+    
+}
+
+.content-card {
+    background-color: #fff8dc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    font-size: 16px;
+    line-height: 1.6;
+}
+.content-card h3 {
+    color: #333;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+/* styles.css */
+.header {
+    background-color: #1f1f1f;
+    color: white;
+    /* padding: 15px 25px; */
+    padding: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #444;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header-left img {
+    height: 35px;
+    margin-right: 10px;
+}
+.header button {
+    margin-bottom: 5px;
+    padding: 6px 15px;
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.primary {
+    margin-bottom: 5px;
+    padding: 6px 15px;
+    background-color: #0a6ed8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.nav-links a {
+    color: #ffa500;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #fff;
+}
+
+/* ----Footer Style Section---- */
+.footer {
+    background-color: #1f1f1f;
+    color: #ccc;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 40px;
+    border-top: 1px solid #444;
+}
+
+.footer-icons button {
+    margin: 5px;
+    padding: 6px 15px;
+    background-color: #0a6ed8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer-icons button:hover {
+    background-color: #c6d5a7;
+}
+
+/* ----Feedback Expander---- */
+[data-testid="stExpander"] {
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #111;
+    color: white;
+    margin-top: 2rem;
+}
+
+[data-testid="stExpander"] summary {
+    font-size: 18px;
+    font-weight: bold;
+    /* color: #ffd700; */
+    color: rgb(230, 16, 16);
+    cursor: pointer;
+}
+
+/* Label text for feedback fields */
+label {
+    background-color: white;
+    color: black !important; 
+    font-weight: 500;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input box text and border */
+input[type="text"], textarea {
+    color: black;             /* text color */
+    background-color: white;  /* background */
+    border: 1px solid #cccccc;  /* border color */
+}
+
+/* Radio button labels */
+.css-1q7j4mt {
+    color: black !important;  /* radio labels */
+}
+
+/* Optional: Buttons */
+.stButton>button {
+    background-color: #0777e8;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+/* -----Code block customization (optional)----- */
+pre {
+    background-color: gray !important;
+    color: black !important;
+    border: 1px solid #444 !important;
+    border-radius: 5px;
+    padding: 15px !important;
+}
